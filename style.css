@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.my-welcome{
+    border-radius: 18px;
+    background-color: black;
+    height: 100px;
+    width: 120px;
+    text-align: center;
+    color:  chocolate;
+    position: relative;
+    top: 25px;
+    left: 100px;
+    margin-top: 1px;
+    text-decoration:darkslategray;
+
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+    
+}
+
+@keyframes colorAnimate{
+    from{
+        left: 0px;
+        color: yellow;
+    }
+    to{
+        
+    }
+
+}
+
+
+body{
+    background-color: black;
+}
+
+
+.header{
+    color: white;
+    height: 34px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+p1{
+    
+    margin-right: 540px;
+    
+}
+p2{
+    margin-right: 10px;
+}
+p3{
+    margin-right: 10px;
+}
+p4{
+    margin-right: 10px;
+}
+
+#ind :hover{
+    color: rgb(172, 242, 146);
+    border: 3px solid rebeccapurple;
+    border-radius: 6px;
+    background: rgb(29, 29, 25);
+}
+
+#ind{
+    margin-top: 9px;
+}
+
+
+/** intro part   **/
+
+.intro{
+    color: white;
+    margin-left: 35px;
+    
+}
+
+#icons{
+    height: 442px;
+    background: white;
+}
